@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "WorkSans-VariableFont_wght";
+  src: url("../src/assets/fonts/WorkSans-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "WorkSans-Italic-VariableFont_wght";
+  src: url("../src/assets/fonts/WorkSans-Italic-VariableFont_wght.ttf");
+}
+
+.WorkSans-VariableFont_wght {
+  font-family: "WorkSans-VariableFont_wght";
+}
+
+.WorkSans-Italic-VariableFont_wght {
+  font-family: "WorkSans-Italic-VariableFont_wght";
+}
