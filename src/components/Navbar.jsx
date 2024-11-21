@@ -90,7 +90,7 @@ const Navbar = () => {
                             <li>
                                 <a
                                     href="#"
-                                    className="block py-2 px-3 text-gray-900 rounded hover:text-white hover:bg-blue-600 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                                    className="block py-2 px-3 text-gray-900 rounded hover:text-white hover:bg-blue-600 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500"
                                 >
                                     About
                                 </a>
@@ -98,7 +98,7 @@ const Navbar = () => {
                             <li>
                                 <a
                                     href="#"
-                                    className="block py-2 px-3 text-gray-900 rounded hover:text-white hover:bg-blue-600 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                                    className="block py-2 px-3 text-gray-900 rounded hover:text-white hover:bg-blue-600 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 "
                                 >
                                     Services
                                 </a>
@@ -106,7 +106,7 @@ const Navbar = () => {
                             <li>
                                 <a
                                     href="#"
-                                    className="block py-2 px-3 text-gray-900 rounded hover:text-white hover:bg-blue-600 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                                    className="block py-2 px-3 text-gray-900 rounded hover:text-white hover:bg-blue-600 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 "
                                 >
                                     Pricing
                                 </a>
@@ -114,7 +114,7 @@ const Navbar = () => {
                             <li>
                                 <a
                                     href="#"
-                                    className="block py-2 px-3 text-gray-900 rounded hover:text-white hover:bg-blue-600 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                                    className="block py-2 px-3 text-gray-900 rounded hover:text-white hover:bg-blue-600 md:hover:bg-transparent md:hover:text-blue-700 md:p-0"
                                 >
                                     Contact
                                 </a>
