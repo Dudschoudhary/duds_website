@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import userProfile from '../assets/images/userProfile.jpg'
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -14,14 +15,14 @@ const Navbar = () => {
     }
     return (
         <>
-            <nav class="bg-slate-50  w-full border-gray-200">
+            <nav class="bg-slate-50  w-full border-gray-200 shadow">
                 <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                     <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
                         <img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo" />
-                        <span class="self-center text-lg sm:text-xl md:text-2xl font-semibold whitespace-nowrap dark:text-white WorkSans-VariableFont_wght">WelCome</span>
+                        <span class="self-center text-lg sm:text-xl md:text-2xl font-semibold whitespace-nowrap WorkSans-VariableFont_wght">WelCome</span>
                     </a>
                     <div class="flex items-center md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-                        <button type="button" class="flex text-sm bg-gray-800 rounded-full md:me-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" id="user-menu-button" aria-expanded={isUserOpen}
+                        <button type="button" class="flex text-sm bg-gray-800 rounded-full md:me-0 focus:ring-4 focus:ring-gray-300" id="user-menu-button" aria-expanded={isUserOpen}
                             onClick={handleUser} data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom">
                             <span class="sr-only">Open user menu</span>
                             <img class="w-8 h-8 rounded-full" src={userProfile} alt="user photo" />
@@ -81,10 +82,12 @@ const Navbar = () => {
                             <li>
                                 <a
                                     href="#"
-                                    className="block py-2 px-3  text-gray-900 hover:text-white hover:bg-blue-600 md:hover:bg-transparent rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
+                                    className="block py-2 px-3  text-gray-900  hover:text-white  hover:bg-blue-600 md:hover:text-blue-700 md:hover:bg-transparent rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
                                     aria-current="page"
                                 >
+                                    <Link to='/'>
                                     Home
+                                    </Link>
                                 </a>
                             </li>
                             <li>
@@ -92,23 +95,26 @@ const Navbar = () => {
                                     href="#"
                                     className="block py-2 px-3 text-gray-900 rounded hover:text-white hover:bg-blue-600 md:hover:bg-transparent md:hover:text-blue-700 md:p-0  md:dark:hover:text-blue-500"
                                 >
+                                    <Link to="/about">
                                     About
+                                    </Link>
+                                    
                                 </a>
                             </li>
                             <li>
                                 <a
                                     href="#"
                                     className="block py-2 px-3 text-gray-900 rounded hover:text-white hover:bg-blue-600 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 "
-                                >
-                                    Services
+                                > <Link to="/">
+                                    Services</Link>
                                 </a>
                             </li>
                             <li>
-                                <a
+                                <a 
                                     href="#"
                                     className="block py-2 px-3 text-gray-900 rounded hover:text-white hover:bg-blue-600 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 "
                                 >
-                                    Pricing
+                                    Portfolio
                                 </a>
                             </li>
                             <li>
