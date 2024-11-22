@@ -105,7 +105,7 @@ const Navbar = () => {
                                 <a
                                     href="#"
                                     className="block py-2 px-3 text-gray-900 rounded hover:text-white hover:bg-blue-600 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 "
-                                > <Link to="/">
+                                > <Link to="/services">
                                     Services</Link>
                                 </a>
                             </li>

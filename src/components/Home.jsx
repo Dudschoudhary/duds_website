@@ -10,7 +10,7 @@ const Home = () => {
               <div className=' w-[100px] h-[100px] border m-auto  border-black rounded-full justify-center items-center flex mb-7'>
                 <img src={userProfine_image} alt="" className='h-[100px] w-[100px] p-1 object-cover rounded-full' />
               </div>
-              <h1 className='text-center lg:m-6 text-xl md:text-3xl WorkSans-VariableFont_wght font-medium'><span className='text-transparent bg-clip-text bg-gradient-to-r to-[#cd586e] from-[#b41bf2]'>I'am Dudarma Choudhary</span>, frontend Developer based in India</h1>
+              <h1 className='text-center lg:m-6 text-xl md:text-3xl WorkSans-VariableFont_wght font-medium'><span className='text-transparent bg-clip-text bg-gradient-to-r to-[#cd586e] from-[#b41bf2]'>I'am Dudaram Choudhary</span>, frontend Developer based in India</h1>
               <p className='text-center text-lg m-4 WorkSans-Italic-VariableFont_wght'>I am a frontend developer from india with 1 year exprince in companies like Mentem tech Jodhpur.</p>
 
               <div className='flex justify-center items-center lg:gap-3 md:m-8 m-4 WorkSans-VariableFont_wght'>

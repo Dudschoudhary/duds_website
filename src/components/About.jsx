@@ -13,7 +13,7 @@ const About = () => {
             <div className='w-full md:flex'>
               {/* main div */}
               <div className='w-full md:w-[40%] flex justify-center items-center'>
-                <img src={profile_img} alt="" className='object-cover h-[500px]  md:h-full  w-full p-3 md:w-[250px] rounded-3xl' />
+                <img src={profile_img} alt="" className='object-cover h-[500px] sm:h-[550px]  md:h-full  w-full p-3 md:w-[250px] rounded-3xl' />
               </div>
 
               <div className='w-full  space-x-2 p-4 WorkSans-Italic-VariableFont_wght'>
@@ -21,7 +21,7 @@ const About = () => {
                 <p className='text-bace md:text-lg'>
                   My passion for frontend development is not only reflected in my extensive experience but also in the endthusiasm and dedication I bring to each project.</p>
                 <div className='w-full flex justify-start items-center mt-10'>
-                  <div class="w-[145px] md:w-36 text-base font-medium text-gray-900 dark:text-blue-500 flex justify-center items-center WorkSans-VariableFont_wght">HTML & CSS</div>
+                  <div class="w-[145px] md:w-36 text-base font-medium text-gray-900 flex justify-center items-center WorkSans-VariableFont_wght">HTML & CSS</div>
 
                   <div class="w-full bg-gray-200 rounded-full h-2.5   dark:bg-gray-700">
                     <div class="bg-gradient-to-r from-pink-500 to-amber-500 h-2.5 rounded-full w-[90%]"></div>
@@ -29,7 +29,7 @@ const About = () => {
                 </div>
 
                 <div className='w-full flex justify-start items-center'>
-                  <div class="w-36 text-base font-medium text-gray-900 dark:text-blue-500 flex justify-center items-center WorkSans-VariableFont_wght">React Js</div>
+                  <div class="w-36 text-base font-medium text-gray-900 flex justify-center items-center WorkSans-VariableFont_wght">React Js</div>
 
                   <div class="w-full bg-gray-200 rounded-full h-2.5   dark:bg-gray-700">
                     <div class="bg-gradient-to-r from-pink-500 to-amber-500 h-2.5 rounded-full w-[70%]"></div>
@@ -37,7 +37,7 @@ const About = () => {
                 </div>
 
                 <div className='w-full flex justify-center items-center'>
-                  <div class="w-36 text-base font-medium text-gray-900 dark:text-blue-500 flex justify-center items-center WorkSans-VariableFont_wght">JavaScript</div>
+                  <div class="w-36 text-base font-medium text-gray-900 flex justify-center items-center WorkSans-VariableFont_wght">JavaScript</div>
 
                   <div class="w-full bg-gray-200 rounded-full h-2.5   dark:bg-gray-700">
                     <div class="bg-gradient-to-r from-pink-500 to-amber-500 h-2.5 rounded-full w-[80%]"></div>
@@ -45,7 +45,7 @@ const About = () => {
                 </div>
 
                 <div className='w-full flex justify-center items-center'>
-                  <div class="w-36 text-base font-medium text-gray-900 dark:text-blue-500 flex justify-center items-center WorkSans-VariableFont_wght">Next Js</div>
+                  <div class="w-36 text-base font-medium text-gray-900 flex justify-center items-center WorkSans-VariableFont_wght">Next Js</div>
 
                   <div class="w-full bg-gray-200 rounded-full h-2.5   dark:bg-gray-700">
                     <div class="bg-gradient-to-r from-pink-500 to-amber-500 h-2.5 rounded-full w-[15%]"></div>
