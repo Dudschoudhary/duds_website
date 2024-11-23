@@ -7,7 +7,15 @@ const Projects = () => {
             <div className='flex justify-center items-center w-full my-4 p-4 min-h-[calc(100vh-170px)'>
 
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4  mx-auto ] WorkSans-Italic-VariableFont_wght text-gray-900'>
-                    <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow">
+                    <div class="max-w-sm p-6 bg-white border border-gray-200 hover:border hover:border-[#b41bf2] rounded-lg shadow transform transition duration-500 hover:scale-105 hover:shadow-lg hover:bg-gradient-to-r from-yellow-200 to-pink-400">
+                        <img src={project_1} alt="" />
+                        <div className='flex justify-start gap-5 my-7 items-center '>
+                            <button className='border rounded-lg bg-black text-white py-3 px-5'> <a href='https://e-commerce-chi-nine-80.vercel.app/'>Live Preview</a></button>
+                            <button className='border rounded-lg bg-black text-white py-3 px-5'>GitHub Link</button>
+                        </div>
+                    </div>
+
+                    <div class="max-w-sm p-6 bg-white border border-gray-200 hover:border hover:border-[#b41bf2] rounded-lg shadow transform transition duration-500 hover:scale-105 hover:shadow-lg hover:bg-gradient-to-r from-yellow-200 to-pink-400">
                         <img src={project_1} alt="" />
                         <div className='flex justify-start gap-5 my-7 items-center '>
                             <button className='border rounded-lg bg-black text-white py-3 px-5'>Live Preview</button>
@@ -15,7 +23,16 @@ const Projects = () => {
                         </div>
                     </div>
 
-                    <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow">
+                    <div class="max-w-sm p-6 bg-white border border-gray-200 hover:border hover:border-[#b41bf2] rounded-lg shadow transform transition duration-500 hover:scale-105 hover:shadow-lg hover:bg-gradient-to-r from-yellow-200 to-pink-400">
+                        <img src={project_1} alt="11" />
+                        <div className='flex justify-start gap-5 my-7 items-center '>
+                            <button className='border rounded-lg bg-black text-white py-3 px-5'>
+                               <a href='https://e-commerce-chi-nine-80.vercel.app/'> Live Preview </a></button>
+                            <button className='border rounded-lg bg-black text-white py-3 px-5'>GitHub Link</button>
+                        </div>
+                    </div>
+
+                    <div class="max-w-sm p-6 bg-white border border-gray-200 hover:border hover:border-[#b41bf2] rounded-lg shadow transform transition duration-500 hover:scale-105 hover:shadow-lg hover:bg-gradient-to-r from-yellow-200 to-pink-400">
                         <img src={project_1} alt="" />
                         <div className='flex justify-start gap-5 my-7 items-center '>
                             <button className='border rounded-lg bg-black text-white py-3 px-5'>Live Preview</button>
@@ -23,7 +40,7 @@ const Projects = () => {
                         </div>
                     </div>
 
-                    <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow">
+                    <div class="max-w-sm p-6 bg-white border border-gray-200 hover:border hover:border-[#b41bf2] rounded-lg shadow transform transition duration-500 hover:scale-105 hover:shadow-lg hover:bg-gradient-to-r from-yellow-200 to-pink-400">
                         <img src={project_1} alt="" />
                         <div className='flex justify-start gap-5 my-7 items-center '>
                             <button className='border rounded-lg bg-black text-white py-3 px-5'>Live Preview</button>
@@ -31,23 +48,7 @@ const Projects = () => {
                         </div>
                     </div>
 
-                    <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow">
-                        <img src={project_1} alt="" />
-                        <div className='flex justify-start gap-5 my-7 items-center '>
-                            <button className='border rounded-lg bg-black text-white py-3 px-5'>Live Preview</button>
-                            <button className='border rounded-lg bg-black text-white py-3 px-5'>GitHub Link</button>
-                        </div>
-                    </div>
-
-                    <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow">
-                        <img src={project_1} alt="" />
-                        <div className='flex justify-start gap-5 my-7 items-center '>
-                            <button className='border rounded-lg bg-black text-white py-3 px-5'>Live Preview</button>
-                            <button className='border rounded-lg bg-black text-white py-3 px-5'>GitHub Link</button>
-                        </div>
-                    </div>
-
-                    <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow">
+                    <div class="max-w-sm p-6 bg-white border border-gray-200 hover:border hover:border-[#b41bf2] rounded-lg shadow transform transition duration-500 hover:scale-105 hover:shadow-lg hover:bg-gradient-to-r from-yellow-200 to-pink-400">
                         <img src={project_1} alt="" />
                         <div className='flex justify-start gap-5 my-7 items-center '>
                             <button className='border rounded-lg bg-black text-white py-3 px-5'>Live Preview</button>
