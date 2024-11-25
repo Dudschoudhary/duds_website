@@ -4,7 +4,7 @@ const About = () => {
   return (
     <>
       <div className='w-full container flex justify-center items-center mx-auto min-h-[calc(100vh-170px)]'>
-        <div className='w-full'>
+        <div className='w-full p-4'>
 
           <h2 className='text-center m-6 text-3xl md:text-[50px] WorkSans-VariableFont_wght'data-aos="flip-left"
      data-aos-easing="ease-out-cubic"data-aos-duration="2000">About me</h2>
@@ -17,7 +17,7 @@ const About = () => {
                 <img src={profile_img} alt="" className='object-cover h-[500px] sm:h-[550px]  md:h-full  w-full p-3 md:w-[250px] rounded-3xl'data-aos="zoom-in" data-aos-duration="1000" />
               </div>
 
-              <div className='w-full  space-x-2 p-4 WorkSans-Italic-VariableFont_wght'>
+              <div className='w-full  space-x-2  WorkSans-Italic-VariableFont_wght'>
                 <p className='text-bace md:text-lg mb-9'data-aos="fade-down" data-aos-duration="1000">I am an experience Frontend Developer with over a decade of professional expertise in the field. Throughout my career. I have had the privilege of collaborating with prestigious organizations, contributing to their success and growth.</p>
                 <p className='text-bace md:text-lg'data-aos="fade-left" data-aos-duration="1000">
                   My passion for frontend development is not only reflected in my extensive experience but also in the endthusiasm and dedication I bring to each project.</p>

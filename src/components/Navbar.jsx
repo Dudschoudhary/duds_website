@@ -85,7 +85,7 @@ const Navbar = () => {
                                     className="block py-2 px-3  text-gray-900  hover:text-white  hover:bg-blue-600 md:hover:text-blue-700 md:hover:bg-transparent rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
                                     aria-current="page"
                                 >
-                                    <Link to='/'>
+                                    <Link to='/' onClick={handleToggle}>
                                         Home
                                     </Link>
                                 </a>
@@ -95,7 +95,7 @@ const Navbar = () => {
                                     href="#"
                                     className="block py-2 px-3 text-gray-900 rounded hover:text-white hover:bg-blue-600 md:hover:bg-transparent md:hover:text-blue-700 md:p-0  md:dark:hover:text-blue-500"
                                 >
-                                    <Link to="/about">
+                                    <Link to="/about" onClick={handleToggle}>
                                         About
                                     </Link>
 
@@ -105,8 +105,10 @@ const Navbar = () => {
                                 <a
                                     href="#"
                                     className="block py-2 px-3 text-gray-900 rounded hover:text-white hover:bg-blue-600 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 "
-                                > <Link to="/services">
-                                        Services</Link>
+                                >
+                                    <Link to="/services"onClick={handleToggle}>
+                                        Services
+                                    </Link>
                                 </a>
                             </li>
                             <li>
@@ -114,7 +116,7 @@ const Navbar = () => {
                                     href="#"
                                     className="block py-2 px-3 text-gray-900 rounded hover:text-white hover:bg-blue-600 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 "
                                 >
-                                    <Link to="/projects">
+                                    <Link to="/projects"onClick={handleToggle}>
                                         My Project
                                     </Link>
 
@@ -125,7 +127,7 @@ const Navbar = () => {
                                     href="#"
                                     className="block py-2 px-3 text-gray-900 rounded hover:text-white hover:bg-blue-600 md:hover:bg-transparent md:hover:text-blue-700 md:p-0"
                                 >
-                                    <Link to="/contact">
+                                    <Link to="/contact"onClick={handleToggle}>
                                         Contact
                                     </Link>
                                 </a>

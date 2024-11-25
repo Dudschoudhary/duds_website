@@ -11,7 +11,7 @@ const Home = () => {
     <>
       <div className=' w-full mx-auto flex justify-between items-center '>
         <div className='w-full box-border'>
-          <div className='userProfile w-[100%] sm:w-[70%] lg:w-[50%] lg:p-4 m-auto flex justify-center items-center min-h-[calc(100vh-170px)]'>
+          <div className='userProfile w-[100%] sm:w-[70%] lg:w-[50%] p-4 lg:p-4 m-auto flex justify-center items-center min-h-[calc(100vh-170px)]'>
             <div className='m-4'>
               <div className=' w-[100px] h-[100px] border m-auto  border-black rounded-full justify-center items-center flex mb-7'>
                 <img src={userProfine_image}  data-aos="zoom-in" data-aos-duration="1000" alt="" className='h-[100px] w-[100px] p-1 object-cover rounded-full' />
