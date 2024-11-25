@@ -15,7 +15,7 @@ const About = () => {
             <div className='w-full md:flex'>
               {/* main div */}
               <div className='w-full md:w-[40%] flex justify-center items-center'>
-                <img src={profile_img} alt="" className='object-cover h-[500px] sm:h-[550px]  md:h-full  w-full p-3 md:w-[250px] rounded-3xl' />
+                <img src={profile_img} alt="" className='object-cover h-[500px] sm:h-[550px]  md:h-full  w-full p-3 md:w-[250px] rounded-3xl'data-aos="zoom-in" data-aos-duration="1000" />
               </div>
 
               <div className='w-full  space-x-2 p-4 WorkSans-Italic-VariableFont_wght'>
