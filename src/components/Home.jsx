@@ -25,7 +25,7 @@ const Home = () => {
               <div className='flex justify-center items-center lg:gap-3 md:m-8 m-4 WorkSans-VariableFont_wght'>
               <button type="button" className="text-white bg-gradient-to-r from-purple-500 to-pink-500  focus:outline-none font-medium rounded-full text-sm md:text-base lg:px-8 lg:py-4 py-2 px-3 text-center me-2 mb-2 outline-none"data-aos="fade-right"data-aos-duration="1000" data-aos-anchor="#example-anchor" data-aos-offset="500">Contact with me</button>
 
-              <button type="button" className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-gray-300 font-medium rounded-full text-sm py-2 px-3  md:text-base lg:px-8 lg:py-4 me-2 mb-2"data-aos="fade-left"data-aos-duration="1000" data-aos-anchor="#example-anchor" data-aos-offset="500">My resume</button>
+              <button type="button" className="text-gray-900 bg-white hover:text-white hover:border hover:border-gray-900 hover:bg-gray-900 focus:outline-none focus:ring-gray-300 font-medium rounded-full text-sm py-2 px-3  md:text-base lg:px-8 lg:py-4 me-2 border-2 border-gray-600 mb-2"data-aos="fade-left"data-aos-duration="1000" data-aos-anchor="#example-anchor" data-aos-offset="500">My resume</button>
               </div>
             </div>
           </div>
