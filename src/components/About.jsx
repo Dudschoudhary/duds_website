@@ -7,8 +7,7 @@ const About = () => {
         <div className='w-full'>
 
           <h2 className='text-center m-6 text-3xl md:text-[50px] WorkSans-VariableFont_wght'data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000">About me</h2>
+     data-aos-easing="ease-out-cubic"data-aos-duration="2000">About me</h2>
 
           <div className=''>
 

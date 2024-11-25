@@ -2,6 +2,7 @@ import {useEffect} from 'react'
 import userProfine_image from '../assets/images/userProfile.jpg'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // Import AOS CSS
+import { Link } from 'react-router-dom';
 const Home = () => {
   useEffect(() => {
     AOS.init(); // Initialize AOS
@@ -23,7 +24,7 @@ const Home = () => {
       data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1000">I am a frontend developer from india with 1 year exprince in companies like Mentem tech Jodhpur.</p>
 
               <div className='flex justify-center items-center lg:gap-3 md:m-8 m-4 WorkSans-VariableFont_wght'>
-              <button type="button" className="text-white bg-gradient-to-r from-purple-500 to-pink-500  focus:outline-none font-medium rounded-full text-sm md:text-base lg:px-8 lg:py-4 py-2 px-3 text-center me-2 mb-2 outline-none"data-aos="fade-right"data-aos-duration="1000" data-aos-anchor="#example-anchor" data-aos-offset="500">Contact with me</button>
+              <Link to="/contact"><button type="button" className="text-white bg-gradient-to-r to-[#b41bf2] from-[#cd586e] focus:outline-none font-medium rounded-full text-sm md:text-base lg:px-8 lg:py-4 py-2 px-3 text-center me-2 mb-2 outline-none"data-aos="fade-right"data-aos-duration="1000" data-aos-anchor="#example-anchor" data-aos-offset="500">Contact with me</button></Link>
 
               <button type="button" className="text-gray-900 bg-white hover:text-white hover:border hover:border-gray-900 hover:bg-gray-900 focus:outline-none focus:ring-gray-300 font-medium rounded-full text-sm py-2 px-3  md:text-base lg:px-8 lg:py-4 me-2 border-2 border-gray-600 mb-2"data-aos="fade-left"data-aos-duration="1000" data-aos-anchor="#example-anchor" data-aos-offset="500">My resume</button>
               </div>
