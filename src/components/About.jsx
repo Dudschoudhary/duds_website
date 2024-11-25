@@ -49,7 +49,7 @@ const About = () => {
                   <div className="w-36 text-base font-medium text-gray-900 flex justify-center items-center WorkSans-VariableFont_wght"data-aos="fade-up" data-aos-duration="1000">Next Js</div>
 
                   <div className="w-full bg-gray-200 rounded-full h-2.5   dark:bg-gray-700 "data-aos="fade-up" data-aos-duration="1000">
-                    <div className="bg-gradient-to-r from-pink-500 to-amber-500 h-2.5 rounded-full w-[15%]"></div>
+                    <div className="bg-gradient-to-r from-pink-500 to-amber-500 h-2.5 rounded-full w-[55%]"></div>
                   </div>
                 </div>
               </div>
