@@ -11,6 +11,15 @@
   font-family: "WorkSans-Italic-VariableFont_wght";
   src: url("../src/assets/fonts/WorkSans-Italic-VariableFont_wght.ttf");
 }
+@font-face {
+  font-family:"Nunito-Bold" ;
+  src: url("../src//assets/fonts/nunito/Nunito-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Nunito-Italic";
+  src: url("../src/assets/fonts/nunito/Nunito-Italic.ttf");
+}
 
 .WorkSans-VariableFont_wght {
   font-family: "WorkSans-VariableFont_wght";
@@ -18,4 +27,10 @@
 
 .WorkSans-Italic-VariableFont_wght {
   font-family: "WorkSans-Italic-VariableFont_wght";
+}
+.Nunito-Bold{
+  font-family: "Nunito-Italic";
+}
+.Nunuto-Italic{
+  font-family: "Nunito-Italic";
 }

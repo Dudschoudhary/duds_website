@@ -19,7 +19,7 @@ const Navbar = () => {
                 <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                     <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
                         <img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo" />
-                        <span class="self-center text-lg sm:text-xl md:text-2xl font-semibold whitespace-nowrap WorkSans-VariableFont_wght">WelCome</span>
+                        <span class="self-center text-lg sm:text-xl md:text-2xl font-semibold whitespace-nowrap Nunito-Bold">Duds<label className='Nunuto-Italic text-red-600'>Tech</label></span>
                     </a>
                     <div class="flex items-center md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
                         <button type="button" class="flex text-sm bg-gray-800 rounded-full md:me-0 focus:ring-4 focus:ring-gray-300" id="user-menu-button" aria-expanded={isUserOpen}
@@ -28,29 +28,29 @@ const Navbar = () => {
                             <img class="w-8 h-8 rounded-full" src={userProfile} alt="user photo" />
                         </button>
 
-                        <div class={`z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600 ${isUserOpen ? "flex" : "hidden"}`} id="user-dropdown">
+                        <div class={`z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow  ${isUserOpen ? "flex" : "hidden"}`} id="user-dropdown">
                             <div class="px-4 py-3">
-                                <span class="block text-sm text-gray-900 dark:text-white">Bonnie Green</span>
-                                <span class="block text-sm  text-gray-500 truncate dark:text-gray-400">name@flowbite.com</span>
+                                <span class="block text-sm text-gray-900">Bonnie Green</span>
+                                <span class="block text-sm  text-gray-500 truncate ">name@flowbite.com</span>
                             </div>
                             <ul class="py-2" aria-labelledby="user-menu-button">
                                 <li>
-                                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Dashboard</a>
+                                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 ">Dashboard</a>
                                 </li>
                                 <li>
-                                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Settings</a>
+                                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 ">Settings</a>
                                 </li>
                                 <li>
-                                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Earnings</a>
+                                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 ">Earnings</a>
                                 </li>
                                 <li>
-                                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Sign out</a>
+                                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 ">Sign out</a>
                                 </li>
                             </ul>
                         </div>
                         <button
                             type="button"
-                            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 "
                             aria-controls="navbar-user"
                             aria-expanded={isMenuOpen}
                             onClick={handleToggle}
@@ -82,7 +82,7 @@ const Navbar = () => {
                             <li>
                                 <a
                                     href="#"
-                                    className="block py-2 px-3  text-gray-900  hover:text-white  hover:bg-blue-600 md:hover:text-blue-700 md:hover:bg-transparent rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
+                                    className="block py-2 px-3  text-gray-900  hover:text-white  hover:bg-blue-600 md:hover:text-blue-700 md:hover:bg-transparent rounded md:bg-transparent md:text-blue-700 md:p-0"
                                     aria-current="page"
                                 >
                                     <Link to='/' onClick={handleToggle}>
@@ -93,7 +93,7 @@ const Navbar = () => {
                             <li>
                                 <a
                                     href="#"
-                                    className="block py-2 px-3 text-gray-900 rounded hover:text-white hover:bg-blue-600 md:hover:bg-transparent md:hover:text-blue-700 md:p-0  md:dark:hover:text-blue-500"
+                                    className="block py-2 px-3 text-gray-900 rounded hover:text-white hover:bg-blue-600 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 "
                                 >
                                     <Link to="/about" onClick={handleToggle}>
                                         About
@@ -104,7 +104,7 @@ const Navbar = () => {
                             <li>
                                 <a
                                     href="#"
-                                    className="block py-2 px-3 text-gray-900 rounded hover:text-white hover:bg-blue-600 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 "
+                                    className="block py-2 px-3 text-gray-900 rounded hover:text-white hover:bg-blue-600 md:hover:bg-transparent md:hover:text-blue-700 md:p-0"
                                 >
                                     <Link to="/services"onClick={handleToggle}>
                                         Services
@@ -114,7 +114,7 @@ const Navbar = () => {
                             <li>
                                 <a
                                     href="#"
-                                    className="block py-2 px-3 text-gray-900 rounded hover:text-white hover:bg-blue-600 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 "
+                                    className="block py-2 px-3 text-gray-900 rounded hover:text-white hover:bg-blue-600 md:hover:bg-transparent md:hover:text-blue-700 md:p-0"
                                 >
                                     <Link to="/projects"onClick={handleToggle}>
                                         My Project
