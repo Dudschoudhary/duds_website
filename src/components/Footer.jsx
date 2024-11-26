@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { AiOutlineInstagram } from "react-icons/ai";
 import { FaXTwitter } from "react-icons/fa6";
 import { SiWhatsapp } from "react-icons/si";
+import { IoLocationOutline } from "react-icons/io5";
 
 
 
@@ -25,7 +26,7 @@ const Footer = () => {
             <li>
               <a href="https://wa.me/9587449072"><SiWhatsapp/></a>
             </li>
-
+          
           </ul>
         </div>
       </footer>
