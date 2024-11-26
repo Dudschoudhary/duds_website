@@ -1,5 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import { AiOutlineInstagram } from "react-icons/ai";
+import { FaXTwitter } from "react-icons/fa6";
+import { SiWhatsapp } from "react-icons/si";
+
+
 
 const Footer = () => {
   return (
@@ -10,20 +15,17 @@ const Footer = () => {
         <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
           <span class="text-sm font-medium  sm:text-center  text-gray-900 rounded md:p-0 ">© 2023 <a href="" class="hover:underline text-gray-900">Flowbite™</a>. All Rights Reserved.
           </span>
-          <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-900  sm:mt-0">
+          <ul class="flex flex-wrap items-center gap-4 mt-3 text-lg font-medium text-gray-900  sm:mt-0">
             <li>
-              <a href="#" class="hover:underline me-4 md:me-6"><Link to="/about">About</Link> </a>
+              <a href="https://twitter.com/Erduds656"><FaXTwitter className=''/></a>
             </li>
             <li>
-              <a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
+              <a href="https://www.instagram.com/duds_choudhary_656"><AiOutlineInstagram /></a>
             </li>
             <li>
-              <a href="#" class="hover:underline me-4 md:me-6">Licensing</a>
+              <a href="https://wa.me/9587449072"><SiWhatsapp/></a>
             </li>
-            <li>
-              <Link to="/contact">
-                <a href="#" class="hover:underline">Contact</a></Link>
-            </li>
+
           </ul>
         </div>
       </footer>

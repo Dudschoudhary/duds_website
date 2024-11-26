@@ -20,7 +20,7 @@ const Projects = () => {
                                 <img src={project_1} alt="" className='object-contain h-[200px]' />
                             </div>
                             <div className='flex justify-start gap-5 my-7 items-center'>
-                                <button className='border rounded-full bg-black text-white py-1 px-3 text-sm md:text-base sm:py-3 sm:px-5 bg-gradient-to-r to-[#b41bf2] from-[#cd586e]'> <a href='https://e-commerce-chi-nine-80.vercel.app/'>Live Preview</a></button>
+                                <button className='border border-[#cd586e] rounded-full bg-black text-white py-1 px-3 text-sm md:text-base sm:py-3 sm:px-5 bg-gradient-to-r to-[#b41bf2] from-[#cd586e]'> <a href='https://e-commerce-chi-nine-80.vercel.app/'>Live Preview</a></button>
                                 <button className='border border-gray-900 rounded-full text-gray-900 bg-white hover:text-white hover:border hover:border-gray-900 hover:bg-gray-900 py-1 px-3 text-sm md:text-base sm:py-3 sm:px-5'><a href='https://github.com/Dudschoudhary/e-commerce'>Github Link</a></button>
                             </div>
                         </div>
@@ -35,7 +35,7 @@ const Projects = () => {
                                 <img src={project_2} alt="" className='object-contain h-[200px]' />
                             </div>
                             <div className='flex justify-start gap-5 my-7 items-center '>
-                                <button className='border rounded-full bg-black text-white py-1 px-3 text-sm md:text-base sm:py-3 sm:px-5 bg-gradient-to-r to-[#b41bf2] from-[#cd586e]'> <a href='https://food-del-eosin.vercel.app/'>Live Preview</a></button>
+                                <button className='border border-[#cd586e] rounded-full bg-black text-white py-1 px-3 text-sm md:text-base sm:py-3 sm:px-5 bg-gradient-to-r to-[#b41bf2] from-[#cd586e]'> <a href='https://food-del-eosin.vercel.app/'>Live Preview</a></button>
                                 <button className='border border-gray-900 rounded-full text-gray-900 bg-white hover:text-white hover:border hover:border-gray-900 hover:bg-gray-900 py-1 px-3 text-sm md:text-base sm:py-3 sm:px-5'><a href='https://github.com/Dudschoudhary/Food-Del'>Github Link</a></button>
                             </div>
                         </div>
@@ -50,7 +50,7 @@ const Projects = () => {
                                 <img src={project_3} alt="" className='object-contain h-[200px]' />
                             </div>
                             <div className='flex justify-start gap-5 my-7 items-center '>
-                                <button className='border rounded-full bg-black text-white py-1 px-3 text-sm md:text-base sm:py-3 sm:px-5 bg-gradient-to-r to-[#b41bf2] from-[#cd586e]'> <a href='https://responsive-form-template.vercel.app/'>Live Preview</a></button>
+                                <button className='border border-[#cd586e] rounded-full bg-black text-white py-1 px-3 text-sm md:text-base sm:py-3 sm:px-5 bg-gradient-to-r to-[#b41bf2] from-[#cd586e]'> <a href='https://responsive-form-template.vercel.app/'>Live Preview</a></button>
                                 <button className='border border-gray-900 rounded-full text-gray-900 bg-white hover:text-white hover:border hover:border-gray-900 hover:bg-gray-900 py-1 px-3 text-sm md:text-base sm:py-3 sm:px-5'><a href='https://github.com/Dudschoudhary/responsive-form-template'>Github Link</a></button>
                             </div>
                         </div>
@@ -66,7 +66,7 @@ const Projects = () => {
                             </div>
 
                             <div className='flex justify-start gap-5 my-7 items-center '>
-                                <button className='border rounded-full bg-black text-white py-1 px-3 text-sm md:text-base sm:py-3 sm:px-5 bg-gradient-to-r to-[#b41bf2] from-[#cd586e]'> <a href='https://todo-ten-puce-19.vercel.app/'>Live Preview</a></button>
+                                <button className='border border-[#cd586e] rounded-full bg-black text-white py-1 px-3 text-sm md:text-base sm:py-3 sm:px-5 bg-gradient-to-r to-[#b41bf2] from-[#cd586e]'> <a href='https://todo-ten-puce-19.vercel.app/'>Live Preview</a></button>
                                 <button className='border border-gray-900 rounded-full text-gray-900 bg-white hover:text-white hover:border hover:border-gray-900 hover:bg-gray-900 py-1 px-3 text-sm md:text-base sm:py-3 sm:px-5'><a href='https://github.com/Dudschoudhary/todo'>Github Link</a></button>
                             </div>
                         </div>
@@ -82,7 +82,7 @@ const Projects = () => {
                             </div>
 
                             <div className='flex justify-start gap-5 my-7 items-center '>
-                                <button className='border rounded-full bg-black text-white py-1 px-3 text-sm md:text-base sm:py-3 sm:px-5 bg-gradient-to-r to-[#b41bf2] from-[#cd586e]'> <a href='https://weather-api-hazel-seven.vercel.app/'>Live Preview</a></button>
+                                <button className='border border-[#cd586e] rounded-full bg-black text-white py-1 px-3 text-sm md:text-base sm:py-3 sm:px-5 bg-gradient-to-r to-[#b41bf2] from-[#cd586e]'> <a href='https://weather-api-hazel-seven.vercel.app/'>Live Preview</a></button>
                                 <button className='border border-gray-900 rounded-full text-gray-900 bg-white hover:text-white hover:border hover:border-gray-900 hover:bg-gray-900 py-1 px-3 text-sm md:text-base sm:py-3 sm:px-5'><a href='https://github.com/Dudschoudhary/WeatherApi'>Github Link</a></button>
                             </div>
                         </div>
@@ -98,7 +98,7 @@ const Projects = () => {
                             </div>
 
                             <div className='flex justify-start gap-5 my-7 items-center '>
-                                <button className='border rounded-full bg-black text-white py-1 px-3 text-sm md:text-base sm:py-3 sm:px-5 bg-gradient-to-r to-[#b41bf2] from-[#cd586e]'> <a href='https://template-1-fa-qs.vercel.app/'>Live Preview</a></button>
+                                <button className='border border-[#cd586e] rounded-full bg-black text-white py-1 px-3 text-sm md:text-base sm:py-3 sm:px-5 bg-gradient-to-r to-[#b41bf2] from-[#cd586e]'> <a href='https://template-1-fa-qs.vercel.app/'>Live Preview</a></button>
                                 <button className='border border-gray-900 rounded-full text-gray-900 bg-white hover:text-white hover:border hover:border-gray-900 hover:bg-gray-900 py-1 px-3 text-sm md:text-base sm:py-3 sm:px-5'><a href='https://github.com/Dudschoudhary/template_1_FAQs'>Github Link</a></button>
                             </div>
                         </div>

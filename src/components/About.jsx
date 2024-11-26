@@ -3,7 +3,7 @@ import profile_img from '../assets/images/userProfile.jpg'
 const About = () => {
   return (
     <>
-      <div className='w-full container flex justify-center items-center mx-auto min-h-[calc(100vh-170px)]'>
+      <div className='w-full container flex justify-center items-center mx-auto min-h-[calc(100vh-170px)]'> 
         <div className='w-full p-4'>
 
           <h2 className='text-center m-6 text-3xl md:text-[50px] WorkSans-VariableFont_wght'data-aos="flip-left"
