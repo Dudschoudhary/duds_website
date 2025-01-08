@@ -4,6 +4,7 @@ import project_3 from '../assets/images/form_template.png';
 import project_4 from '../assets/images/todo.png';
 import project_5 from '../assets/images/weatherApi.png';
 import project_6 from '../assets/images/template.png'
+import project_7 from '../assets/images/age_calculator.png'
 const Projects = () => {
     return (
         <>
@@ -100,6 +101,22 @@ const Projects = () => {
                             <div className='flex justify-start gap-5 my-7 items-center '>
                                 <button className='border border-[#cd586e] rounded-full bg-black text-white py-1 px-3 text-sm md:text-base sm:py-3 sm:px-5 bg-gradient-to-r to-[#b41bf2] from-[#cd586e]'> <a href='https://template-1-fa-qs.vercel.app/'>Live Preview</a></button>
                                 <button className='border border-gray-900 rounded-full text-gray-900 bg-white hover:text-white hover:border hover:border-gray-900 hover:bg-gray-900 py-1 px-3 text-sm md:text-base sm:py-3 sm:px-5'><a href='https://github.com/Dudschoudhary/template_1_FAQs'>Github Link</a></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="max-w-sm p-6 bg-white border border-gray-200 hover:border hover:border-[#b41bf2] rounded-lg shadow transform transition duration-500 hover:scale-105 hover:shadow-lg hover:bg-gradient-to-r from-yellow-200 to-pink-400" >
+                        <div data-aos="fade-left" data-aos-duration="1000">
+                            <div>
+                                <h2 className='WorkSans-VariableFont_wght font-medium text-ld mb-3 text-center'>6. Age Calulator</h2>
+                            </div>
+                            <div>
+                                <img src={project_7} alt="" className='object-contain h-[200px]' />
+                            </div>
+
+                            <div className='flex justify-start gap-5 my-7 items-center '>
+                                <button className='border border-[#cd586e] rounded-full bg-black text-white py-1 px-3 text-sm md:text-base sm:py-3 sm:px-5 bg-gradient-to-r to-[#b41bf2] from-[#cd586e]'> <a href='https://age-calculator-eight-bice.vercel.app/'>Live Preview</a></button>
+                                <button className='border border-gray-900 rounded-full text-gray-900 bg-white hover:text-white hover:border hover:border-gray-900 hover:bg-gray-900 py-1 px-3 text-sm md:text-base sm:py-3 sm:px-5'><a href='https://github.com/Dudschoudhary/Age_Calculator.git'>Github Link</a></button>
                             </div>
                         </div>
                     </div>
